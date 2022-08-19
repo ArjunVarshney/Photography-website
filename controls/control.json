@@ -1,0 +1,123 @@
+{
+   "address":"this is the address",
+   "mobileNumber":"+91 91234 12345",
+   "emailAddress":"sample@email.com",
+   "homeSection":{
+      "bannerHeading":"If your photos aren't good enough, then you're not close enough.",
+      "bannerText":"Lets take your photograph to the next level. Capturing wonderful and beautiful moments of your life"
+   },
+   "orderOfPages":["discover","about","services","testimonial","contact","footer"],
+   "discoverSection":{
+      "allPhotos":[
+         {
+            "albumName":"folder1",
+            "numberOfPhotos": 20
+         },
+         {
+            "albumName":"folder2",
+            "numberOfPhotos": 20
+         },
+         {
+            "albumName":"folder3",
+            "numberOfPhotos": 20
+         },
+         {
+            "albumName":"folder4",
+            "numberOfPhotos": 20
+         }
+      ],
+      "allVideos":[
+         "gJ6MsFTVRfA",
+         "Tnol9eV6aqQ",
+         "Tnol9eV6aqQ",
+         "Tnol9eV6aqQ",
+         "Tnol9eV6aqQ",
+         "Tnol9eV6aqQ"
+      ]
+   },
+   "aboutSection":{
+      "aboutText":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sed ea impedit consequatur cum quas architecto, a tempora? Tempore commodi sed fuga deleniti. Ad ut illo repudiandae consequuntur cum voluptatibus dolorem quasi cumque reiciendis, animi id provident error, tempora nisi dolorum earum consectetur dolores possimus deleniti! Ipsam doloribus deleniti porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas, magni itaque magnam maxime quis, cupiditate illum error repellendus, quam eiusRecusandae iusto delectus ea architecto reiciendis?",
+      "aboutPhoto":"logo.svg",
+      "employees":[
+         {
+            "name":"employee1",
+            "photo":"employees/employee1.jpg",
+            "role":"role"
+         },
+         {
+            "name":"employee2",
+            "photo":"employees/employee1.jpg",
+            "role":"role"
+         },
+         {
+            "name":"employee3",
+            "photo":"employees/employee1.jpg",
+            "role":"role"
+         },
+         {
+            "name":"employee4",
+            "photo":"employees/employee1.jpg",
+            "role":"role"
+         }
+      ]
+   },
+   "servicesSection":[
+      {
+         "logo":"camera",
+         "service":"photography",
+         "description":"this a sample description"
+      },
+      {
+         "logo":"video",
+         "service":"Videography",
+         "description":"this a sample description"
+      },
+      {
+         "logo":"laptop",
+         "service":"Editing",
+         "description":"this a sample description"
+      },
+      {
+         "logo":"camera",
+         "service":"photography",
+         "description":"this a sample description"
+      },
+      {
+         "logo":"video",
+         "service":"Videography",
+         "description":"this a sample description"
+      },
+      {
+         "logo":"laptop",
+         "service":"Editing",
+         "description":"this a sample description"
+      }
+   ],
+   "testimonialSection":[
+      {
+         "description":"this is a sample description of a sample client",
+         "photo":"testimonial/image1.png",
+         "name":"Raju Singh Chauhan"
+      },
+      {
+         "description":"this is a sample description of a sample client",
+         "photo":"testimonial/image1.png",
+         "name":"Raju Singh Chauhan 1"
+      },
+      {
+         "description":"this is a sample description of a sample client",
+         "photo":"testimonial/image1.png",
+         "name":"Raju Singh Chauhan 2"
+      },
+      {
+         "description":"this is a sample description of a sample client",
+         "photo":"testimonial/image1.png",
+         "name":"Raju Singh Chauhan 3"
+      },
+      {
+         "description":"this is a sample description of a sample client",
+         "photo":"testimonial/image1.png",
+         "name":"Raju Singh Chauhan 4"
+      }
+   ]
+}

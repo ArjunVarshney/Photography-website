@@ -1,0 +1,171 @@
+@media (max-width: 1000px) {
+  .home .banner .banner-text h1 {
+    line-height: normal;
+    font-size: 40px;
+  }
+  .home .banner .banner-text .hire-btn div {
+    min-width: 250px;
+  }
+  .home .banner .banner-text .hire-btn button {
+    min-width: 150px;
+  }
+  .discover .video{
+    height: 250px;
+  }
+  .about .team .member {
+    min-width: 230px;
+    flex: 0 0 calc(33.333% - 30px);
+    max-width: calc(33.333% - 30px);
+  }
+}
+@media (max-width: 900px) {
+  .discover .video{
+    height: 230px;
+  }
+  .about .team .member {
+    min-width: 230px;
+    flex: 0 0 calc(50% - 30px);
+    max-width: calc(50% - 30px);
+  }
+}
+@media (max-width: 940px) {
+  .home nav {
+    height: 100vh;
+    right: 0;
+    top: 0;
+    border-radius: 5px;
+    width: 50px;
+  }
+
+  .home nav ul {
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .home nav ul li {
+    margin: 0px !important;
+  }
+  .home .navbar nav div.menu-close-btn {
+    padding: 40px 20px;
+    width: 40px;
+  }
+  .home nav.active {
+    width: 250px;
+    max-width: 250px;
+  }
+  .discover .col {
+    width: 50%;
+  }
+}
+@media (max-width: 800px){
+  .discover .video{
+    height: 350px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 750px) {
+  .about .about-inner .text {
+    padding: 0;
+  }
+  .home .banner .banner-text h1 {
+    font-size: 35px;
+  }
+  .home .banner .banner-text .hire-btn {
+    flex-wrap: wrap;
+  }
+  .home .banner .banner-text .hire-btn > * {
+    margin: 5px 0 10px;
+  }
+  .home .banner .banner-text p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .contact .container {
+    flex-direction: column;
+  }
+  .contact .container > div {
+    width: 80% !important;
+  }
+  .contact .container .contact-info {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 630px) {
+  .home .banner .banner-text h1 {
+    font-size: 30px;
+  }
+  .discover .video{
+    height: 300px;
+  }
+  .about .team .member {
+    min-width: 300px;
+    flex: 0 0 calc(100% - 30px);
+    max-width: calc(100% - 30px);
+  }
+  .about .team .member .img {
+    height: 360px;
+  }
+  .about .about-inner .img {
+    display: none;
+  }
+  .about .about-inner .text {
+    padding-right: 20px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .discover .col {
+    width: 100%;
+  }
+  .testimonial-section .testi-slider {
+    width: 85%;
+    margin: auto;
+  }
+}
+@media (max-width: 540px) {
+  .home nav{
+    width: 40px;
+  }
+  .home .navbar nav div.menu-close-btn{
+    padding: 40px 10px;
+  }
+  .home .banner .banner-text {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+  }
+  .home .banner .banner-text .hire-btn > button {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .home .banner .banner-text h1 {
+    font-size: 40px;
+  }
+  .home .banner .banner-text .hire-btn > div {
+    /* width: 100%; */
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  }
+  .discover .video{
+    height: 250px;
+  }
+}
+@media (max-width: 450px){
+  .discover .video{
+    height: 200px;
+  }
+}
+@media (max-width: 350px){
+  .discover .video{
+    height: 180px;
+  }
+}
+@media (max-width: 300px){
+  .discover .video{
+    height: 130px;
+  }
+}
