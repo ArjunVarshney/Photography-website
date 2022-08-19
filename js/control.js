@@ -178,4 +178,3 @@ fetch("../controls/control.json")
     phoneBox.innerHTML = data.mobileNumber;
     emailBox.innerHTML = data.emailAddress;
   })
-  .catch((err) => console.error(err));
