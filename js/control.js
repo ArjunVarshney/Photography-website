@@ -1,4 +1,6 @@
-fetch("../controls/control.json")
+fetch(
+  "https://arjunvarshney.github.io/Photography-website/controls/control.json"
+)
   .then((response) => response.json())
   .then((data) => {
     //ordering the pages using js
@@ -72,7 +74,7 @@ fetch("../controls/control.json")
     //video loading
     let discoverVideo = document.querySelector(".discover-video .row");
     let videos = data.discoverSection.allVideos;
-    for(let i =0;i<videos.length;i++){
+    for (let i = 0; i < videos.length; i++) {
       let html = `<div class="video">
                <iframe src="https://www.youtube.com/embed/${videos[i]}"
                   title="YouTube video player" frameborder="0"
@@ -177,4 +179,4 @@ fetch("../controls/control.json")
     addressBox.innerHTML = data.address;
     phoneBox.innerHTML = data.mobileNumber;
     emailBox.innerHTML = data.emailAddress;
-  })
+  });
